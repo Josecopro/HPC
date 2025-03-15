@@ -1,8 +1,16 @@
 #include <stdio.h>
+#include <stdbool.h>
 
-int main() {
-    for (int i = 0; i < 10; i++){
-        printf("Hello World!\n");
-    }
-       return 0; 
+int main(){
+    int number = 1;
+    int *p = &number;
+    int sum;
+    *p = 2;
+    sum = number + *p;
+
+    printf("%d\n", sum);
+
+
+    return 0;
+
 }

@@ -3,17 +3,15 @@
 
 int main() {
     bool condition = true;
+    int number = 1;
     if (!condition) {
         printf("Hello World!\n");
+        printf("Bonjour le monde!\n");
     }
-    else if (condition)
-    {
+    else if (condition && number == 0)
         printf("Au revoir!\n");
-    }
     else
-    {
-        printf("This should never happen\n");
-    }
+        printf("Si paso!\n");
     
     return 0; 
 }

@@ -19,3 +19,5 @@ int main() {
 
     return 0;
 }
+// To compile this file, use: gcc -fopenmp -o paralelism paralelism.c
+// To run the compiled program, use: ./paralelism

@@ -16,6 +16,7 @@ int main() {
 
     do
     {
+
         printf("Enter the sides of the triangle: ");
         scanf("%lf %lf %lf", &SideA, &SideB, &SideC);
         if (SideA <= 0 || SideB <= 0 || SideC <= 0){
